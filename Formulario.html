@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<br><br>
+	<form action=""method"">
+	<label for="nombre">Ingresa tu nombre </label>
+	<input type="text" id="nombre">
+	<label for="contraseña">Contraseña:</label>
+	<input type="password" name="contraseña" id="contraseña">
+	<br><br>
+    <label for="Género">Género:</label><br>
+	<input type="radio" name="genero" id="hombre">
+	<label for="hombre">Masculino</label>
+	<input type="radio" name="genero" id="mujer">
+	<label for="mujer">Femenino</label>
+	<br></br>
+	<label for="universidad">Ingresa el nombre de tu universidad:</label><br>
+	<input type="text" id="Universidad"><br><br>
+	<label for="Dirección"> Ingrese su domicilio</label>
+	<input type="text" id="domicilio">
+	<label for="">"Conocimientos:" </label><br>
+
+	<input type="chekbox" name="Language" id="HTML5">
+	<label for="HTML5">HTML5 </label><br>
+	<input type="chekbox" name="Language" id="CSS">
+	<label for="CSS">CSS </label><br>
+	<input type="chekbox" name="Language" id="JavaScript">	
+	<label for="JavaScript">JS</label><br>
+	<input type="submit" value="Enviar datos">
+	<input type="reset" value="Borrar datos">
+	<h2>Información sobre la tarea</h2>
+        	<div id="name">
+        		<label for="task_name">Estado de la tarea</label>
+        		<input type="text" id="task_name" name="task_name">
+            	</div>
+            	<label>Estado</label>
+            	<div id="state">
+            		<input type="chekbox" id="task_todo" name="task_state" 		value="todo">
+                	<label for="task_todo">Pendiente</label>
+
+            		<input type="chekbox" id="task_prog" name="task_state" 		value="progress">
+                	<label for="task_prog">En progreso</label>
+           
+            		<input type="chekbox" id="task_done" name="task_state" 		value="done">
+                	<label for="task_done">Hecha</label>
+                
+             	</div>
+             	<div id ="state">
+             		<label for="task_detail">Detalle</label>
+                	<texttarea id="task_detail" name="task_detail"></texttarea>
+             	</div>
+             	<div class="button">
+             	<button type="submit"> Guardar cambios>></button>
+            
+	</form>
+<body>
+</html>
